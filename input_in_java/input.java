@@ -13,6 +13,15 @@ int a = sc.nextInt();
 System.out.println(a);
 System.out.println(a);
 
+
+int b = sc.nextInt();
+System.out.println(b);
+System.out.println(a);
+
+int c = sc.nextInt();
+System.out.println(a);
+System.out.println(a);
+
 /*
  * import java.util.Scanner;
  *   Scanner scanner = new Scanner(System.in);
