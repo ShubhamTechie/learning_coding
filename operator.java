@@ -96,7 +96,9 @@ Used to test whether an object is an instance of a specific class or implements 
 Operator	Description	Example
 instanceof	Tests if an object is an instance of a class or interface	obj instanceof MyClass
 
- * 
+ * hguisjkm,dfhjkahfjk,ajhkmnb
+ * ,kajfhkdsakjhfkhj
+ * ndfjksahjkfgkjhga
  * 
  * 
  */
