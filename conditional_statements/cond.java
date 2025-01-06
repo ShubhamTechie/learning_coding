@@ -8,14 +8,14 @@ public class cond {
   int number = 10;
 
   if (number > 5) {
-      System.out.println("Number is greater than 5");
+      System.out.println("Number is greater than cdhhjshjdh 5");
   }
 
   int number2 = 4;
 if (number > 5) {
-    System.out.println("Number is greater than 5");
+    System.out.println("Number is greater than  dsbbcjdsc 5");
 } else {
-    System.out.println("Number is less than or equal to 5");
+    System.out.println("Number is less than or equal msdhcjksd to 5");
 }
 
 
@@ -23,7 +23,7 @@ int number3 = 10;
 if (number > 15) {
     System.out.println("Number is greater than 15");
 } else if (number > 5) {
-    System.out.println("Number is greater than 5 but less than or equal to 15");
+    System.out.println("Number is greater than 5 but jbsdjhsd less than or equal to 15");
 } else {
     System.out.println("Number is 5 or less");
 }
@@ -47,7 +47,7 @@ switch (day) {
         System.out.println("Friday");
         break;
     case 6:
-        System.out.println("Saturday");
+        System.out.println("Saturdaydcnch");
         break;
     case 7:
         System.out.println("Sunday");
