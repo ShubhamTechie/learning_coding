@@ -20,7 +20,10 @@ while (i <= 5) {
         System.out.println("Count: " + i);
         i++;
 
+for (int i=1; i<=20; i++){
 
+System.out.println("print number from 1 to 20" + i);
+}
 
 
 
