@@ -12,6 +12,10 @@ public static void main(String[] args) {
   int sum = a + b;
 
   System.out.println("the sum of int a and int b is = " + sum);
+
+
+  int mul = a*b;
+  System.out.println(mul);
   
 
 /*
