@@ -3,5 +3,9 @@ public class hi {
     
 
     System.out.println("hekko world");
+  
+  int s= 5;
+  
+  
   }
 }
