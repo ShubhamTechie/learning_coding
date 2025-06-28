@@ -54,6 +54,11 @@ switch (day) {
         break;
     default:
         System.out.println("Invalid day");
+
+
+
+
+        System.out.println("this is a a switch case example in java");
 }
 
   
