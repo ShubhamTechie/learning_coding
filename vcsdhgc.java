@@ -10,6 +10,9 @@ public class vcsdhgc {
      int s = 56;
      int sum = d +s;
 
+
+     int mul = d * s;
+
   }
   
 }
