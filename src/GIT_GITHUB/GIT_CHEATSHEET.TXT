@@ -1,0 +1,79 @@
+🔹 Configuration
+bash
+Copy
+Edit
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global core.editor "code --wait"  # VS Code as Git editor
+🔹 Basic Workflow
+bash
+Copy
+Edit
+git init                      # Initialize a repo
+git clone <repo_url>         # Clone a remote repo
+git add .                    # Stage all changes
+git commit -m "Message"      # Commit changes
+git status                   # Check current status
+git diff                     # Show changes
+git log                      # Show commit history
+🔹 Branching
+bash
+Copy
+Edit
+git branch                   # List branches
+git branch <branch-name>     # Create branch
+git checkout <branch-name>   # Switch branch
+git checkout -b <branch-name>  # Create + switch
+git merge <branch-name>      # Merge into current branch
+git branch -d <branch-name>  # Delete local branch
+
+======================================================================================================================
+
+🔹 Remote Repos
+
+git remote -v
+git remote add origin <url>
+git push -u origin <branch>
+git pull origin <branch>
+git fetch                    # Fetch changes
+
+
+=============================================================================================================
+🔹 Advanced Concepts
+
+git stash                    # Stash uncommitted changes
+git stash pop                # Reapply stashed changes
+git reset --hard <commit>   # Reset to previous state
+git revert <commit>         # Create revert commit
+git cherry-pick <commit>    # Apply single commit
+git rebase <branch>         # Reapply commits on top of another
+git log --oneline --graph --all  # Visualize history
+
+=====================================================================================================================
+🔹 Tagging
+
+git tag                      # List tags
+git tag v1.0.0               # Create lightweight tag
+git tag -a v1.0.0 -m "Tag message"  # Annotated tag
+git push origin v1.0.0       # Push tag
+
+====================================================================================================================
+🔹 Cleanups
+
+git clean -fd                # Delete untracked files/folders
+git reflog                   # Log of all recent HEAD moves
+
+
+
+
+=========================================== error solution --------------------------------------------------------
+
+git push origin master --force
+
+            or
+
+git pull origin master --rebase
+
+
+git push --set-upstream origin master
+
