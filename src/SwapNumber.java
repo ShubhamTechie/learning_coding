@@ -12,9 +12,9 @@ public class SwapNumber {
 
 
 
-        int sp  = a ;
+        int c  = a ;
         a=b;
-        b=sp;
+        b=c;
 
 
         System.out.println("a : = " + a );
