@@ -4,5 +4,15 @@ public class if_else {
 
 
         System.out.println("if else statrmnrny");
+
+        String str = "true";
+        if (str == "shubham")
+        {
+            System.out.println("true");
+        }else
+        {
+            System.out.println("false");
+        }
+
     }
 }
