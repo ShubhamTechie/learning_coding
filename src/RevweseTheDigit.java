@@ -19,15 +19,12 @@ public class RevweseTheDigit {
     }
 
 
-
-
-
-    public  static int revDigit(int digit){
+    public static int revDigit(int digit) {
         int newDigit = 0;
-        while (digit > 0 ){
+        while (digit > 0) {
 
             int num = digit % 10;
-            newDigit = newDigit * 10 + num ;
+            newDigit = newDigit * 10 + num;
             digit = digit / 10;
 
         }
