@@ -8,7 +8,6 @@ public class SortedArray {
 
         int[] myArr =ArrayUtility.inputArray();
 
-
         boolean inc =isIncreasing(myArr);
         boolean dec = isDecreasing(myArr);
         if (inc || dec){
