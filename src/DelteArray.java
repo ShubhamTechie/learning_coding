@@ -7,7 +7,8 @@ public class DelteArray {
 
     public static void main(String[] args) {
 
-       Scanner input = new Scanner(System.in);
+
+        Scanner input = new Scanner(System.in);
         System.out.println("welcome to thr no.deletion of array");
         int[] numArr = ArrayUtility.inputArray();
         System.out.println("now enter no.you want to delete");
@@ -19,15 +20,21 @@ public class DelteArray {
 
     }
 
+
     public static int[] deleteNumber(int[] numArr, int numToDelete) {
+
         int occ = NoOfOccurance.occurences(numArr, numToDelete);
 
         if (occ == 0){
             return numArr;
         }
 
+
+
         int newSize = numArr.length - occ;
         int[] newArr = new  int[newSize];
+
+
 
         int i=0, j=0;
         while (i < numArr.length){
